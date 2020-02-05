@@ -1,10 +1,10 @@
 package sweets;
 
-public class Barfi extends Sweet
+public class Chocolate extends Sweet
 {
     String type;
 
-    public Barfi(String name,int price,int weight,String type)
+    public Chocolate(String name,int price,int weight,String type)
     {
         super(name,price,weight);
         this.type=type;
